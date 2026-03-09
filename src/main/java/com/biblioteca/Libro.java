@@ -1,3 +1,10 @@
+/**
+ * Representa un libro dentro del sistema de biblioteca.
+ * Contiene información básica como ISBN, título, autor, editorial y género.
+ * 
+ * @author Brayan Stiven Molina Macias 
+ * @version 1.0
+ */
 package com.biblioteca;
 
 public class Libro {
@@ -11,6 +18,14 @@ public class Libro {
     }
 
     // Añadir documentación e incluir @throws
+    /**
+     * Constructor para crear un nuevo libro con los detalles proporcionados.
+     * @param isbn
+     * @param titulo
+     * @param autor
+     * @param editorial
+     * @param genero
+     */
     public Libro(String isbn, String titulo, String autor, String editorial, String genero){
         if (titulo.isEmpty()) {
             throw new IllegalArgumentException("El titulo está vacio");

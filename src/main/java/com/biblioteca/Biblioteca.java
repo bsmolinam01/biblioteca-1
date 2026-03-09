@@ -1,7 +1,19 @@
+/**
+ * Representa la biblioteca y su gestión de libros.
+ * 
+ * @author Brayan Stiven Molina Macias
+ * @version 1.0
+ */
 package com.biblioteca;
 
 import java.util.Scanner;
-
+/**
+ * La clase Biblioteca es la clase principal que representa la biblioteca y su gestión de libros.
+ * Contiene un objeto de la clase GestionLibros para gestionar los libros de la biblioteca y un objeto Scanner para leer la entrada del usuario.
+ * La clase Biblioteca tiene un constructor que inicializa el objeto GestionLibros y un método menu
+ * que muestra un menú de opciones para el usuario y permite agregar libros nuevos, mostrar todos los libros y salir del programa.
+ * 
+ */
 public class Biblioteca {
     GestionLibros gesLibro;
     Scanner sc = new Scanner(System.in);
